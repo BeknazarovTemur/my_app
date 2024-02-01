@@ -17,5 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', function(){
-    return 'Hi to QOrash';
+    return 'Hi';
+});
+
+Route::get('/laravel', function() {
+    return 'Assalom';
 });
